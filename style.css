@@ -1,0 +1,28 @@
+img:hover{
+  opacity: 1;
+}
+img{
+  opacity: 0.5;
+  height: inherit;
+  width: 100%;
+}
+button{
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 30px;
+  height: 80px;
+  width: 15%;
+  font-size: 30px;
+  color: white;
+  transition-duration: 0.5s;
+}
+button:hover{
+  background-color: green;
+}
+body{
+  background-image: url(https://images.unsplash.com/photo-1550219363-d0adfaa43d0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+div{
+  height: 400px;
+  background-color: white;
+}
